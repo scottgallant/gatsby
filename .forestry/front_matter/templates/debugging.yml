@@ -13,3 +13,5 @@ fields:
   type: boolean
   hidden: false
   default: ''
+pages:
+- docs/docs/test.md
