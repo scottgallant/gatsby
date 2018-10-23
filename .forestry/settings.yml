@@ -9,7 +9,6 @@ sections:
   label: Docs
   create: documents
   match: "**/*"
-  exclude: docs/ecommerce-tutorial/*
   new_doc_ext: ''
 - type: directory
   path: docs/blog
