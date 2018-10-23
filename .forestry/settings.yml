@@ -5,11 +5,17 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: docs/docs
+  label: Docs
+  create: documents
+  match: "**/*"
+  exclude: docs/ecommerce-tutorial/*
+  new_doc_ext: ".md"
+- type: directory
   path: docs/blog
   label: Blog
   create: all
   match: "**/*"
-  exclude: "*.png|*.jpg|*.gif"
   new_doc_ext: ".md"
 upload_dir: uploads
 public_path: "/uploads"
