@@ -10,13 +10,13 @@ sections:
   create: documents
   match: "**/*"
   exclude: docs/ecommerce-tutorial/*
-  new_doc_ext: ".md"
+  new_doc_ext: ''
 - type: directory
   path: docs/blog
   label: Blog
   create: all
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: ''
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
