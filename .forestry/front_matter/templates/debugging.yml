@@ -14,5 +14,5 @@ fields:
   hidden: false
   default: ''
 pages:
-- docs/docs/jamstack-conf.md
 - docs/docs/test.md
+- docs/docs/jamstack-conf.md
