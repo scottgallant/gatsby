@@ -21,7 +21,8 @@ public_path: "/static"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
-custom_preview: true
+instant_preview: true
 build:
   preview_command: npm run build
+  preview_output_directory: public
   output_directory: public
