@@ -14,6 +14,6 @@ fields:
   hidden: false
   default: ''
 pages:
-- docs/docs/test.md
-- docs/docs/jamstack-conf.md
 - docs/blog/2018-12-14-test-post/index.md.md
+- docs/docs/jamstack-conf.md
+- docs/docs/test.md

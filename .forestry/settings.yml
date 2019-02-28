@@ -27,5 +27,6 @@ build:
   publish_command: gatsby build
   preview_env:
   - BUILD_DIR=www/
-  preview_output_directory: public
+  preview_output_directory: www/public
   output_directory: www/public
+  instant_preview_command: npm run forestry:preview
